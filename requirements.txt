@@ -1,0 +1,34 @@
+# ============================================================
+# Public Health Dashboard Pipeline - Python Dependencies
+# Author: Sai Deva Puttur
+# Install: pip install -r requirements.txt
+# ============================================================
+
+# Core data processing
+pandas==2.2.2
+numpy==1.26.4
+
+# HTTP requests for CDC API
+requests==2.31.0
+
+# PostgreSQL database connector
+psycopg2-binary==2.9.9
+
+# Environment variable management
+python-dotenv==1.0.1
+
+# Testing
+pytest==8.2.2
+pytest-mock==3.14.0
+
+# Optional: Apache Airflow (for pipeline orchestration)
+# apache-airflow==2.9.1
+
+# Optional: SQLAlchemy (for ORM-based DB interaction)
+# sqlalchemy==2.0.30
+
+# Optional: dbt for SQL transformations
+# dbt-postgres==1.8.0
+
+# Logging (built-in, no install needed)
+# logging
